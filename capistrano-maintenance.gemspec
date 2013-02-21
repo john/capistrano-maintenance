@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.summary     = %q{Offers deploy:web:disable and deploy:web:enable tasks for Capistrano.}
   s.description = %q{The deploy:web tasks where removed from Capistrano core. This extension brings them back.}
 
-  s.files         = `git ls-files`.split("\n")
-  s.require_paths = ["lib"]
+  # s.files         = `git ls-files`.split("\n")
+  # s.require_paths = ["lib"]
 
-  s.add_dependency 'capistrano', ['>= 2.0.0']
+  # s.add_dependency 'capistrano', ['>= 2.0.0']
 end
